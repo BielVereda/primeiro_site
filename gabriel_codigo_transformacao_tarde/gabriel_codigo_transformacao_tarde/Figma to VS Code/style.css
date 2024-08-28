@@ -1,0 +1,45 @@
+@charset "utf8";
+
+/*Margin: Define uma margem entre o texto e a página.
+* Padding: Define uma margem entre o texto e os objetos à sua volta.
+* Box-Sizing: Calcular o tamanho do elemento.*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*Font-family: Define a fonte geral do site.
+* Display: Definne o comportamento do texto em posição aos outros elementos (box or no).
+* Flex-direction: Define a posição dos itens móveis dentro do "container".
+* Align-items: Cria um container onde podemos colocar objetos.*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Justify-content: Define a distribuição dos objetos são alinhados no container.
+* Width: o tamanho da tela em qualquer aparelho.
+* Background-color: Muda a cor do fundo do display.*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+}
+
+/*Color: Cor do texto.
+* Text-decoration: Decoração do texto.*/
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
